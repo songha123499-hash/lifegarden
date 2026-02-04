@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lifegarden.co.kr/sitemap.xml
+
+# 크롤링 지연 시간 (초)
+Crawl-delay: 1

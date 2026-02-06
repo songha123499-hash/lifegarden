@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- 메인 페이지 -->
+  <url>
+    <loc>https://lifegarden.co.kr</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr" />
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/og-image.jpg</image:loc>
+      <image:title>라이프가든 - Life Garden</image:title>
+      <image:caption>화훼, 청년, 교육을 통한 비영리단체</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- 라이프가든 소개 -->
+  <url>
+    <loc>https://lifegarden.co.kr/#about</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr/#about" />
+  </url>
+  
+  <!-- 이사장 소개 -->
+  <url>
+    <loc>https://lifegarden.co.kr/#director</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr/#director" />
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/images/2.png</image:loc>
+      <image:title>양유승 이사장</image:title>
+      <image:caption>라이프가든 설립자 · 남평 식물원 원장</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- 식물원 갤러리 -->
+  <url>
+    <loc>https://lifegarden.co.kr/#gallery</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr/#gallery" />
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/flower/1.png</image:loc>
+      <image:title>남평 식물원 갤러리</image:title>
+      <image:caption>아름다운 식물들</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/flower/2.png</image:loc>
+      <image:title>남평 식물원 갤러리</image:title>
+      <image:caption>아름다운 식물들</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/flower/3.png</image:loc>
+      <image:title>남평 식물원 갤러리</image:title>
+      <image:caption>아름다운 식물들</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/flower/4.png</image:loc>
+      <image:title>남평 식물원 갤러리</image:title>
+      <image:caption>아름다운 식물들</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/flower/5.png</image:loc>
+      <image:title>남평 식물원 갤러리</image:title>
+      <image:caption>아름다운 식물들</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/flower/6.png</image:loc>
+      <image:title>남평 식물원 갤러리</image:title>
+      <image:caption>아름다운 식물들</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- 산하기관 (아카데미) -->
+  <url>
+    <loc>https://lifegarden.co.kr/#academy</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr/#academy" />
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/playacademy.png</image:loc>
+      <image:title>플레이아카데미</image:title>
+      <image:caption>배움이 즐거움이 되는 교육 프로그램</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/withacademy.png</image:loc>
+      <image:title>위드아카데미</image:title>
+      <image:caption>함께하는 배움의 여정</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/itdaacademy.jpg</image:loc>
+      <image:title>잇다아카데미</image:title>
+      <image:caption>연결하는 배움의 공동체</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- 추천의 말씀 -->
+  <url>
+    <loc>https://lifegarden.co.kr/#testimonials</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr/#testimonials" />
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/images/3.jpg</image:loc>
+      <image:title>정훈오 목사님</image:title>
+      <image:caption>목회자 후원</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://lifegarden.co.kr/images/1.png</image:loc>
+      <image:title>민매실 강사님</image:title>
+      <image:caption>광주 남구청 교육강사</image:caption>
+    </image:image>
+  </url>
+  
+  <!-- 문의하기 -->
+  <url>
+    <loc>https://lifegarden.co.kr/#contact</loc>
+    <lastmod>2024-12-19T00:00:00+09:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://lifegarden.co.kr/#contact" />
+  </url>
+  
+</urlset>

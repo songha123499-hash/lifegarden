@@ -1,6 +1,5 @@
 "use client"
 import Image from 'next/image'
-import Link from 'next/link'
 import { Calendar, CreditCard, Sparkles } from 'lucide-react'
 
 export default function Jaksim4ilBanner() {
@@ -69,14 +68,6 @@ export default function Jaksim4ilBanner() {
                                     <span className="text-sm sm:text-base font-semibold">참가비: 1회차 당 5,000원</span>
                                 </div>
                             </div>
-
-                            {/* CTA Button */}
-                            <Link
-                                href="/apply"
-                                className="inline-block w-full sm:w-auto px-8 py-4 rounded-xl bg-[#228B22] hover:bg-[#1a6b1a] text-white font-bold text-lg shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
-                            >
-                                ✨ 지금 신청하기
-                            </Link>
                         </div>
                     </div>
 

@@ -5,10 +5,10 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'JeongseonArirangRoot';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangPPURI-RegularA1.woff') format('woff');
-    font-weight: normal;
-    font-display: swap;
+  font-family: 'JeongseonArirangRoot';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/JSArirangPPURI-RegularA1.woff') format('woff');
+  font-weight: normal;
+  font-display: swap;
 }
 
 /* 현대적 반응형 디자인 */
@@ -171,6 +171,7 @@
     opacity: 0;
     transform: translateY(30px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -182,6 +183,7 @@
     opacity: 0;
     transform: translateX(-30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -193,6 +195,7 @@
     opacity: 0;
     transform: translateX(30px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
@@ -200,9 +203,12 @@
 }
 
 @keyframes pulse {
-  0%, 100% {
+
+  0%,
+  100% {
     opacity: 1;
   }
+
   50% {
     opacity: 0.5;
   }
@@ -349,17 +355,17 @@
   @apply section;
 }
 
-  .modern-section-header {
-    @apply text-center mb-16;
-  }
+.modern-section-header {
+  @apply text-center mb-16;
+}
 
-  .modern-section-title {
-    @apply section-title;
-    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary)) 50%, hsl(var(--primary) / 0.8) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
+.modern-section-title {
+  @apply section-title;
+  background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary)) 50%, hsl(var(--primary) / 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
 .modern-section-subtitle {
   @apply section-subtitle;

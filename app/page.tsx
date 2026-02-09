@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
+import Jaksim4ilBanner from "@/components/Jaksim4ilBanner";
 import AboutSection from "@/components/AboutSection";
 import PlantGallery from "@/components/PlantGallery";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -16,6 +17,7 @@ export default function Home() {
       <main className="pt-16">
         <EventPopup />
         <HeroSection />
+        <Jaksim4ilBanner />
 
         {/* 섹션 구분자 1 */}
         <div className="section-divider">

@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 
 export default function DirectorSection() {
   return (
@@ -26,27 +27,22 @@ export default function DirectorSection() {
           <div className="space-y-8">
             <div className="text-center lg:text-left">
               <div className="w-48 h-60 border-4 border-primary/20 rounded-2xl overflow-hidden mx-auto lg:mx-0 mb-8 shadow-2xl">
-                <img
+                <Image
                   src="/images/2.png"
                   alt="양유승 이사장"
+                  width={192}
+                  height={240}
                   className="w-full h-full object-cover"
-                  onError={(e) => {
-                    e.currentTarget.style.display = 'none';
-                    if (e.currentTarget.parentElement) {
-                      e.currentTarget.parentElement.style.backgroundColor = '#deb887';
-                      e.currentTarget.parentElement.innerHTML = '<div class="flex items-center justify-center h-full text-primary text-2xl font-bold">양유승</div>';
-                    }
-                  }}
                 />
               </div>
-              
+
               <h3 className="text-3xl font-bold text-foreground mb-4">
                 양유승 이사장
               </h3>
               <p className="text-lg text-muted-foreground mb-6">
                 라이프가든 설립자 · 남평 식물원 원장
               </p>
-              
+
               <div className="bg-gradient-to-r from-primary/5 to-primary/10 rounded-2xl p-6">
                 <h4 className="text-lg font-bold text-primary mb-4 text-center">
                   "땅을 가꾸던 지혜로 사람을 키우는 후원자"
@@ -106,7 +102,7 @@ export default function DirectorSection() {
             <h3 className="text-3xl font-bold text-amber-700 mb-8">
               교육 후원에 대한 비전
             </h3>
-            
+
             <div className="space-y-6 text-lg leading-relaxed mb-12 text-muted-foreground">
               <p>
                 양유승 이사장은 오랜 세월 식물을 돌보며 생명 하나하나가 가진 고유한 가치와 잠재력을 깨달았습니다.

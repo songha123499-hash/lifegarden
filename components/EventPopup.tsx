@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { X, Calendar, Clock, MapPin, Sparkles } from 'lucide-react'
+import { X, Calendar, Clock, Sparkles } from 'lucide-react'
 
 export default function EventPopup() {
     const [isOpen, setIsOpen] = useState(false)

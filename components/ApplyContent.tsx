@@ -33,13 +33,13 @@ export default function ApplyContent() {
                 {/* Header Section */}
                 <div className="text-center space-y-4">
                     <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-medium text-sm mb-2">
-                        2026년 2월
+                        2026년 3월
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
-                        🐩 2월 원앤온 클래스
+                        🪴 3월 원앤온 클래스
                     </h1>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-                        새로운 시작, 배움의 즐거움을 함께하는 특별한 시간
+                        봄날의 설렘, 배움의 즐거움을 함께하는 특별한 시간
                     </p>
                 </div>
 
@@ -51,7 +51,7 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">1. 진행일</h3>
                         <p className="text-gray-600">
-                            2월 10일, 12일, 19일, 20일
+                            3월 10일, 13일, 17일, 20일 (화, 금)
                         </p>
                     </div>
 
@@ -72,7 +72,7 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">3. 장소</h3>
                         <p className="text-gray-600">
-                            개별 공지
+                            3월 개강센터
                         </p>
                     </div>
 
@@ -81,9 +81,15 @@ export default function ApplyContent() {
                             <BookOpen className="w-6 h-6 text-purple-600" />
                         </div>
                         <h3 className="text-lg font-bold mb-2">4. 프로그램</h3>
-                        <div className="space-y-2 text-gray-600">
-                            <p><span className="font-semibold text-gray-900">1교시</span> 원데이 클래스</p>
-                            <p><span className="font-semibold text-gray-900">2교시</span> 온클래스: 강의</p>
+                        <div className="space-y-3 text-gray-600">
+                            <div>
+                                <p className="font-semibold text-gray-900 text-sm">1교시: 원데이 클래스</p>
+                                <p className="text-xs text-gray-500">롤온 향수, 샌드위치, 벌레 퇴치제, 손세정제</p>
+                            </div>
+                            <div>
+                                <p className="font-semibold text-gray-900 text-sm">2교시: 온클래스 강의</p>
+                                <p className="text-xs text-gray-500">이영자 강사님</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -106,7 +112,7 @@ export default function ApplyContent() {
 
                     <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto animate-in zoom-in-95 duration-200">
                         <div className="sticky top-0 bg-white/80 backdrop-blur-md px-6 py-4 border-b flex justify-between items-center z-10">
-                            <h2 className="text-xl font-bold">2월 원앤온 클래스 신청</h2>
+                            <h2 className="text-xl font-bold">3월 원앤온 클래스 신청</h2>
                             <button onClick={() => setIsModalOpen(false)} className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                                 <X className="w-5 h-5" />
                             </button>

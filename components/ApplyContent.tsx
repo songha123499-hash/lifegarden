@@ -72,7 +72,7 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">3. 장소</h3>
                         <p className="text-gray-600">
-                            3월 개강센터
+                            드림원 아카데미
                         </p>
                     </div>
 

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { X, Calendar, Clock, Sparkles } from 'lucide-react'
+import { X, Calendar, Clock, Sparkles, MapPin } from 'lucide-react'
 
 export default function EventPopup() {
     const [isOpen, setIsOpen] = useState(false)
@@ -76,6 +76,16 @@ export default function EventPopup() {
                             </div>
                         </div>
 
+                        <div className="flex items-center gap-3 border-t border-stone-50 pt-2.5">
+                            <div className="p-1.5 bg-emerald-50 rounded-lg">
+                                <MapPin className="w-3.5 h-3.5 text-emerald-600" />
+                            </div>
+                            <div>
+                                <p className="text-[8px] font-bold text-stone-400 uppercase tracking-[0.15em] leading-none mb-1">장소</p>
+                                <p className="text-[11px] font-bold text-stone-800">드림원 아카데미</p>
+                            </div>
+                        </div>
+
                         <div className="flex items-start gap-3 border-t border-stone-50 pt-2.5">
                             <div className="p-1.5 bg-emerald-50 rounded-lg mt-0.5">
                                 <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
@@ -85,10 +95,11 @@ export default function EventPopup() {
                                 <div className="space-y-0.5">
                                     <p className="text-[11px] text-stone-800 leading-tight">
                                         <span className="text-emerald-700 font-extrabold">1교시:</span> 원데이 클래스
-                                        <span className="block text-[10px] text-stone-500 font-medium"> (롤온 향수, 샌드위치 등)</span>
+                                        <span className="block text-[10px] text-stone-500 font-medium"> (향수, 샌드위치, 퇴치제, 세정제)</span>
                                     </p>
                                     <p className="text-[11px] text-stone-800 font-bold leading-tight pt-1">
                                         <span className="text-emerald-700 font-extrabold">2교시:</span> 온클래스 강의
+                                        <span className="block text-[10px] text-stone-500 font-medium"> (이영자 강사님)</span>
                                     </p>
                                 </div>
                             </div>

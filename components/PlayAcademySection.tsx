@@ -23,59 +23,70 @@ export default function PlayAcademySection() {
         <div className="max-w-6xl mx-auto">
           {/* 로고 섹션 */}
           <div className="text-center mb-16">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
-              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+
+
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-6 max-w-6xl mx-auto mb-8">
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
                   src="/playacademy.png"
                   alt="플레이아카데미 로고"
                   width={300}
                   height={150}
-                  className="w-full h-auto mx-auto"
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
                 />
               </div>
-              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
                   src="/itdaacademy.jpg"
                   alt="잇다아카데미 로고"
                   width={300}
                   height={150}
-                  className="w-full h-auto mx-auto"
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
                 />
               </div>
-              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
                   src="/withacademy.png"
                   alt="위드아카데미 로고"
                   width={300}
                   height={150}
-                  className="w-full h-auto mx-auto"
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
                 />
               </div>
-              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
                   src="/hanaacademy.jpg"
                   alt="하나아카데미 로고"
                   width={300}
                   height={150}
-                  className="w-full h-auto mx-auto mt-9"
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
                 />
               </div>
-              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
                   src="/rebornacademy.png"
                   alt="리본아카데미 로고"
                   width={300}
                   height={150}
-                  className="w-full h-auto mx-auto"
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
                 />
               </div>
-              <div className="p-8 bg-white/80 backdrop-blur-sm rounded-3xl shadow-lg border border-white/20">
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
                   src="/dodam_academy.png"
                   alt="도담아카데미 로고"
                   width={300}
                   height={150}
-                  className="w-full h-auto mx-auto"
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
+                />
+              </div>
+              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
+                <Image
+                  src="/popup/photo_2026-03-19_09-48-39.jpg"
+                  alt="아카데미 추가 사진"
+                  width={300}
+                  height={150}
+                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
                 />
               </div>
             </div>

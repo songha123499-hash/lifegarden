@@ -33,10 +33,10 @@ export default function ApplyContent() {
                 {/* Header Section */}
                 <div className="text-center space-y-4">
                     <div className="inline-block px-4 py-1.5 rounded-full bg-primary/10 text-primary font-medium text-sm mb-2">
-                        2026년 3월
+                        2026년 4월
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold tracking-tight text-gray-900">
-                        🪴 3월 원앤온 클래스
+                        🪴 4월 원앤온 클래스
                     </h1>
                     <p className="text-xl text-gray-600 max-w-2xl mx-auto">
                         봄날의 설렘, 배움의 즐거움을 함께하는 특별한 시간
@@ -51,7 +51,7 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">1. 진행일</h3>
                         <p className="text-gray-600">
-                            3월 10일, 13일, 17일, 20일 (화, 금)
+                            4/7, 10, 14일, 17일 (화, 금)
                         </p>
                     </div>
 
@@ -61,6 +61,7 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">2. 시간</h3>
                         <div className="space-y-1 text-gray-600">
+                            <p>오전 10시 30분</p>
                             <p>오후 2시</p>
                             <p>저녁 7시 30분</p>
                         </div>
@@ -72,7 +73,8 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">3. 장소</h3>
                         <p className="text-gray-600">
-                            드림원 아카데미
+                            더자람 아카데미
+                            <span className="block text-sm text-gray-500 mt-1">(주소: 광주 남구 독립로4, 2층)</span>
                         </p>
                     </div>
 
@@ -84,11 +86,11 @@ export default function ApplyContent() {
                         <div className="space-y-3 text-gray-600">
                             <div>
                                 <p className="font-semibold text-gray-900 text-sm">1교시: 원데이 클래스</p>
-                                <p className="text-xs text-gray-500">롤온 향수, 샌드위치, 벌레 퇴치제, 손세정제</p>
+                                <p className="text-xs text-gray-500">손 세정제, 향수, 샌드위치, 천연 로션</p>
                             </div>
                             <div>
                                 <p className="font-semibold text-gray-900 text-sm">2교시: 온클래스 강의</p>
-                                <p className="text-xs text-gray-500">이영자 강사님</p>
+                                <p className="text-xs text-gray-500">특별 강연</p>
                             </div>
                         </div>
                     </div>
@@ -112,7 +114,7 @@ export default function ApplyContent() {
 
                     <div className="relative bg-white rounded-2xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto animate-in zoom-in-95 duration-200">
                         <div className="sticky top-0 bg-white/80 backdrop-blur-md px-6 py-4 border-b flex justify-between items-center z-10">
-                            <h2 className="text-xl font-bold">3월 원앤온 클래스 신청</h2>
+                            <h2 className="text-xl font-bold">4월 원앤온 클래스 신청</h2>
                             <button onClick={() => setIsModalOpen(false)} className="p-2 hover:bg-gray-100 rounded-full transition-colors">
                                 <X className="w-5 h-5" />
                             </button>
@@ -163,17 +165,23 @@ export default function ApplyContent() {
                                         <label className="text-sm font-medium leading-none">
                                             희망 시간대 <span className="text-red-500">*</span>
                                         </label>
-                                        <div className="grid grid-cols-2 gap-4">
+                                        <div className="grid grid-cols-3 gap-2 sm:gap-4">
+                                            <label className="cursor-pointer">
+                                                <input type="radio" value="10:30" {...register("time", { required: true })} className="peer sr-only" />
+                                                <div className="border rounded-md p-2 sm:p-3 text-center text-sm font-medium peer-checked:border-primary peer-checked:bg-primary/5 peer-checked:text-primary transition-all hover:border-gray-300">
+                                                    오전 10:30
+                                                </div>
+                                            </label>
                                             <label className="cursor-pointer">
                                                 <input type="radio" value="14:00" {...register("time", { required: true })} className="peer sr-only" />
-                                                <div className="border rounded-md p-3 text-center peer-checked:border-primary peer-checked:bg-primary/5 peer-checked:text-primary transition-all hover:border-gray-300">
-                                                    오후 2시
+                                                <div className="border rounded-md p-2 sm:p-3 text-center text-sm font-medium peer-checked:border-primary peer-checked:bg-primary/5 peer-checked:text-primary transition-all hover:border-gray-300">
+                                                    오후 2:00
                                                 </div>
                                             </label>
                                             <label className="cursor-pointer">
                                                 <input type="radio" value="19:30" {...register("time", { required: true })} className="peer sr-only" />
-                                                <div className="border rounded-md p-3 text-center peer-checked:border-primary peer-checked:bg-primary/5 peer-checked:text-primary transition-all hover:border-gray-300">
-                                                    저녁 7시 30분
+                                                <div className="border rounded-md p-2 sm:p-3 text-center text-sm font-medium peer-checked:border-primary peer-checked:bg-primary/5 peer-checked:text-primary transition-all hover:border-gray-300">
+                                                    저녁 7:30
                                                 </div>
                                             </label>
                                         </div>

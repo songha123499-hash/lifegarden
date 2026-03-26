@@ -8,7 +8,7 @@ export default function EventPopup() {
     const [isOpen, setIsOpen] = useState(false)
 
     useEffect(() => {
-        const hideUntil = localStorage.getItem('hidePopup_onone')
+        const hideUntil = localStorage.getItem('hidePopup_onone_april')
         if (!hideUntil || new Date().getTime() > parseInt(hideUntil)) {
             setIsOpen(true)
         }
@@ -21,15 +21,15 @@ export default function EventPopup() {
     const handleDontShowToday = () => {
         const tomorrow = new Date()
         tomorrow.setHours(tomorrow.getHours() + 24)
-        localStorage.setItem('hidePopup_onone', tomorrow.getTime().toString())
+        localStorage.setItem('hidePopup_onone_april', tomorrow.getTime().toString())
         setIsOpen(false)
     }
 
     if (!isOpen) return null
 
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm px-5 py-8 animate-in fade-in duration-300">
-            <div className="relative bg-[#fcfbf9] rounded-[24px] shadow-2xl max-w-[320px] w-full overflow-hidden flex flex-col transform transition-all animate-in zoom-in-95 duration-300 border border-stone-200/50">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 backdrop-blur-sm px-4 py-6 animate-in fade-in duration-300">
+            <div className="relative bg-[#fcfbf9] rounded-[24px] shadow-2xl w-full max-w-[340px] max-h-[90vh] overflow-y-auto flex flex-col transform transition-all animate-in zoom-in-95 duration-300 border border-stone-200/50">
                 {/* Close Button top-right */}
                 <button
                     onClick={handleClose}
@@ -42,8 +42,8 @@ export default function EventPopup() {
                 {/* Image */}
                 <div className="relative w-full aspect-[4/5] bg-stone-100">
                     <Image
-                        src="/popup/onone_march.png"
-                        alt="3월 원앤온 클래스"
+                        src="/popup/onone_april.jpg"
+                        alt="4월 원앤온 클래스"
                         fill
                         className="object-cover"
                         sizes="(max-width: 640px) 100vw, 320px"
@@ -62,7 +62,7 @@ export default function EventPopup() {
                             </div>
                             <div>
                                 <p className="text-[8px] font-bold text-stone-400 uppercase tracking-[0.15em] leading-none mb-1">진행일</p>
-                                <p className="text-[11px] font-bold text-stone-800">3/10, 13, 17, 20일 (화, 금)</p>
+                                <p className="text-[11px] font-bold text-stone-800">4/7, 10, 14, 17일 (화, 금)</p>
                             </div>
                         </div>
 
@@ -72,7 +72,7 @@ export default function EventPopup() {
                             </div>
                             <div>
                                 <p className="text-[8px] font-bold text-stone-400 uppercase tracking-[0.15em] leading-none mb-1">시간</p>
-                                <p className="text-[11px] font-bold text-stone-800">오후 2시 / 저녁 7시 30분</p>
+                                <p className="text-[11px] font-bold text-stone-800">오전 10:30 / 오후 2:00 / 저녁 7:30</p>
                             </div>
                         </div>
 
@@ -82,7 +82,7 @@ export default function EventPopup() {
                             </div>
                             <div>
                                 <p className="text-[8px] font-bold text-stone-400 uppercase tracking-[0.15em] leading-none mb-1">장소</p>
-                                <p className="text-[11px] font-bold text-stone-800">드림원 아카데미</p>
+                                <p className="text-[11px] font-bold text-stone-800">더자람 아카데미<span className="text-[10px] text-stone-500 font-medium"> (남구 독립로4, 2층)</span></p>
                             </div>
                         </div>
 
@@ -90,17 +90,21 @@ export default function EventPopup() {
                             <div className="p-1.5 bg-emerald-50 rounded-lg mt-0.5">
                                 <Sparkles className="w-3.5 h-3.5 text-emerald-600" />
                             </div>
-                            <div className="space-y-1">
+                            <div className="space-y-1 w-full">
                                 <p className="text-[8px] font-bold text-stone-400 uppercase tracking-[0.15em] leading-none mb-1">프로그램</p>
-                                <div className="space-y-0.5">
+                                <div className="space-y-1 w-full">
                                     <p className="text-[11px] text-stone-800 leading-tight">
                                         <span className="text-emerald-700 font-extrabold">1교시:</span> 원데이 클래스
-                                        <span className="block text-[10px] text-stone-500 font-medium"> (향수, 샌드위치, 퇴치제, 세정제)</span>
+                                        <span className="block text-[10px] text-stone-500 font-medium leading-snug mt-0.5 break-keep"> (손 세정제, 향수, 샌드위치, 천연 로션)</span>
                                     </p>
                                     <p className="text-[11px] text-stone-800 font-bold leading-tight pt-1">
                                         <span className="text-emerald-700 font-extrabold">2교시:</span> 온클래스 강의
-                                        <span className="block text-[10px] text-stone-500 font-medium"> (이영자 강사님)</span>
+                                        <span className="block text-[10px] text-stone-500 font-medium mt-0.5"> (특별 강연)</span>
                                     </p>
+                                </div>
+                                <div className="mt-3 text-[10px] bg-emerald-50/50 p-2.5 rounded-xl border border-emerald-100/50 w-full">
+                                    <p className="text-stone-700 font-bold mb-0.5 text-[10px]">*원데이클래스 체험재료비: 2만원</p>
+                                    <p className="text-stone-500 text-[10px] tracking-tight break-all">카카오뱅크 3333-33-7846805 (이미현)</p>
                                 </div>
                             </div>
                         </div>

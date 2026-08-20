@@ -55,15 +55,6 @@ export default function PlayAcademySection() {
               </div>
               <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
                 <Image
-                  src="/hanaacademy.jpg"
-                  alt="하나아카데미 로고"
-                  width={300}
-                  height={150}
-                  className="w-full h-auto max-w-[120px] md:max-w-full mx-auto"
-                />
-              </div>
-              <div className="p-4 md:p-8 bg-white/80 backdrop-blur-sm rounded-2xl md:rounded-3xl shadow-lg border border-white/20 flex items-center justify-center">
-                <Image
                   src="/rebornacademy.png"
                   alt="리본아카데미 로고"
                   width={300}

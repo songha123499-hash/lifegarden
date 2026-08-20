@@ -73,7 +73,7 @@ export default function ApplyContent() {
                         </div>
                         <h3 className="text-lg font-bold mb-2">3. 장소</h3>
                         <p className="text-gray-600">
-                            더자람 아카데미
+                            그라운드 원
                             <span className="block text-sm text-gray-500 mt-1">(주소: 광주 남구 독립로4, 2층)</span>
                         </p>
                     </div>

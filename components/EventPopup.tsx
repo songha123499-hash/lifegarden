@@ -82,7 +82,7 @@ export default function EventPopup() {
                             </div>
                             <div>
                                 <p className="text-[8px] font-bold text-stone-400 uppercase tracking-[0.15em] leading-none mb-1">장소</p>
-                                <p className="text-[11px] font-bold text-stone-800">더자람 아카데미<span className="text-[10px] text-stone-500 font-medium"> (남구 독립로4, 2층)</span></p>
+                                <p className="text-[11px] font-bold text-stone-800">그라운드 원<span className="text-[10px] text-stone-500 font-medium"> (남구 독립로4, 2층)</span></p>
                             </div>
                         </div>
 

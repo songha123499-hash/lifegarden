@@ -7,14 +7,11 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import DirectorSection from "@/components/DirectorSection";
 import PlayAcademySection from "@/components/PlayAcademySection";
 import Footer from "@/components/Footer";
-import EventPopup from "@/components/EventPopup";
-
 export default function Home() {
   return (
     <div className="min-h-screen">
       <Header />
       <main className="pt-16">
-        <EventPopup />
         <HeroSection />
 
         {/* 섹션 구분자 1 */}
